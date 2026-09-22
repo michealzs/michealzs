@@ -58,7 +58,3 @@ Everything that touches production goes through a pull request, including infras
 My [public gists](https://gist.github.com/michealzs) hold the setup notes I keep coming back to: Docker on a fresh host, DNS/DHCP/NTP for a small network, chrony, and object storage on AWS and Wasabi.
 
 Open to DevOps, SRE, and platform engineering roles.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=michealzs&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats for michealzs" />
-</p>
