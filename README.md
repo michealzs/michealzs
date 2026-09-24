@@ -37,7 +37,20 @@ Platform engineering for a payments product on AWS: 22 microservices on EKS, RDS
 | Security | SSH hardening, fail2ban, auditd, Keycloak, certbot, least-privilege IAM, OIDC for CI, secrets rotation |
 | Languages | Python, Bash, TypeScript, SQL, PromQL |
 
-## Featured repositories
+## Security work
+
+Rebuilt from real work and published with the client, environment and engagement
+redacted. Each one carries a Context section saying so.
+
+| Repository | What it is |
+| --- | --- |
+| [k8s-admission-control-lab](https://github.com/michealzs/k8s-admission-control-lab) | Kyverno policies with a 93-case test suite, a catalogue of ten documented admission bypasses with expected outcomes and MITRE techniques, and the Falcon and Defender runtime layers that cover what admission cannot. |
+| [k8s-detection-as-code](https://github.com/michealzs/k8s-detection-as-code) | 22 KQL detections over kube-audit mapped to ATT&CK, Log Analytics ingestion, Logic App response playbooks, and 474 checks that validate the corpus, including that a query's lookback matches its schedule. |
+| [privileged-access-recording](https://github.com/michealzs/privileged-access-recording) | Recorded, brokered access: Guacamole, Warpgate and Teleport compared and configured, Ansible roles for SSSD, tlog, pam_tty_audit and auditd, and Conditional Access with PIM as code. |
+
+## Platform and delivery
+
+Reference implementations, written from scratch. No client behind them.
 
 | Repository | What it is |
 | --- | --- |
